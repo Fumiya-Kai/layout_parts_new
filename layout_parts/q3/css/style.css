@@ -2,4 +2,45 @@
 
 /* 回答はここに書いてね */
 
+.recode {
+  margin: 0 auto;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.row1 {
+  background-color: #2244aa;
+  color: #fff;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.column1 {
+  background-color: #2244aa;
+  color: #fff;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.column {
+  border: 1px solid #dedede;
+  border-collapse: collapse;
+  height: 46px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.data {
+  color: #000;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.row6column {
+  border-top: 2px dashed #000;
+}
+
+.row3 .data, .row5 .data {
+  background-color: #ecf1f2;
+}
 /* 回答はここに書いてね */
