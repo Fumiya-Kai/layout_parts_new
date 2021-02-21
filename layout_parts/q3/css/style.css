@@ -8,14 +8,14 @@
   width: 100%;
 }
 
-.row1 {
+.row:first-child {
   background-color: #2244aa;
   color: #fff;
   font-size: 18px;
   line-height: 26px;
 }
 
-.column1 {
+.column:first-child {
   background-color: #2244aa;
   color: #fff;
   font-size: 18px;
@@ -36,11 +36,11 @@
   line-height: 22px;
 }
 
-.row6column {
+.row:last-child {
   border-top: 2px dashed #000;
 }
 
-.row3 .data, .row5 .data {
+.row:nth-child(3) .data, .row:nth-child(5) .data {
   background-color: #ecf1f2;
 }
 /* 回答はここに書いてね */
