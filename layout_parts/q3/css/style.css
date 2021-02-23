@@ -30,6 +30,10 @@
   vertical-align: middle;
 }
 
+.row:nth-child(odd) .data{
+  background-color: #ecf1f2;
+}
+
 .data {
   color: #000;
   font-size: 16px;
@@ -38,9 +42,5 @@
 
 .row:last-child {
   border-top: 2px dashed #000;
-}
-
-.row:nth-child(3) .data, .row:nth-child(5) .data {
-  background-color: #ecf1f2;
 }
 /* 回答はここに書いてね */
