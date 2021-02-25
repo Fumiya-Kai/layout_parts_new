@@ -8,21 +8,21 @@
   width: 100%;
 }
 
-.row:first-child {
+.recode th {
   background-color: #2244aa;
   color: #fff;
   font-size: 18px;
   line-height: 26px;
 }
 
-.column:first-child {
+.recode td:first-child {
   background-color: #2244aa;
   color: #fff;
   font-size: 18px;
   line-height: 26px;
 }
 
-.column {
+.recode tr > * {
   border: 1px solid #dedede;
   border-collapse: collapse;
   height: 46px;
@@ -30,17 +30,17 @@
   vertical-align: middle;
 }
 
-.row:nth-child(odd) .data{
+.recode tr:nth-child(odd) td{
   background-color: #ecf1f2;
 }
 
-.data {
+.recode td {
   color: #000;
   font-size: 16px;
   line-height: 22px;
 }
 
-.row:last-child {
+.recode tr:last-child {
   border-top: 2px dashed #000;
 }
 /* 回答はここに書いてね */
