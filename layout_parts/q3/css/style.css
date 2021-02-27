@@ -8,20 +8,6 @@
   width: 100%;
 }
 
-.recode th {
-  background-color: #2244aa;
-  color: #fff;
-  font-size: 18px;
-  line-height: 26px;
-}
-
-.recode td:first-child {
-  background-color: #2244aa;
-  color: #fff;
-  font-size: 18px;
-  line-height: 26px;
-}
-
 .recode tr > * {
   border: 1px solid #dedede;
   border-collapse: collapse;
@@ -30,7 +16,14 @@
   vertical-align: middle;
 }
 
-.recode tr:nth-child(odd) td{
+.recode th {
+  background-color: #2244aa;
+  color: #fff;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.recode tr:nth-child(even) td{
   background-color: #ecf1f2;
 }
 
@@ -40,7 +33,7 @@
   line-height: 22px;
 }
 
-.recode tr:last-child {
+.recode tbody tr:last-child {
   border-top: 2px dashed #000;
 }
 /* 回答はここに書いてね */

@@ -23,56 +23,56 @@
   background-color: #ffefd3;
   top: 40px;
   left: 200px;
-  z-index: 1;
+  z-index: 10;
 }
 
 .square2 {
   background-color: #7084ed;
   top: 120px;
   right: 120px;
-  z-index: 2;
+  z-index: 20;
 }
 
 .square3 {
   background-color: #d0ecea;
   top: 200px;
   right: 40px;
-  z-index: 3;
+  z-index: 30;
 }
 
 .square4 {
   background-color: #8b7a5e;
   bottom: 120px;
   right: 120px;
-  z-index: 4;
+  z-index: 40;
 }
 
 .square5 {
   background-color: #9fd6d2;
   bottom: 40px;
   right: 200px;
-  z-index: 5;
+  z-index: 50;
 }
 
 .square6 {
   background-color: #fffee4;
   bottom: 120px;
   left: 120px;
-  z-index: 6;
+  z-index: 60;
 }
 
 .square7 {
   background-color: #deae70;
   bottom: 200px;
   left: 40px;
-  z-index: 7;
+  z-index: 70;
 }
 
 .square8 {
   background-color: #de70cf;
   top: 120px;
   left: 120px;
-  z-index: 8;
+  z-index: 80;
 }
 
 .square8::after {
